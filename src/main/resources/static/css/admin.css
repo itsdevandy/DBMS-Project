@@ -1,0 +1,145 @@
+*{
+    margin: 0em;
+    padding: 0em;
+}
+
+body, html{
+    
+    height: 100%;
+}
+
+
+.fas{
+
+    font-size: 1.91em;
+    margin-left: .33em;
+}
+
+
+.bg {
+    /* The image used */
+    background-image: url("src/main/resources/static/css/bits1.jpg");
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg1 {
+    /* The image used */
+    background-image: url("src/main/resources/static/css/bits1.jpg");
+    
+    /* Full height */
+    /* height: 100%;  */
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+.box {
+    margin: 4.3em auto;
+    /* background-color: rgba(255, 255, 255, 0.13); */
+    background-image: linear-gradient(130deg, rgba(255, 255, 255, 0.281) 0%, rgba(255, 255, 255, 0.071) 100%);
+    border-radius: 1em;
+    max-width: 60%;
+    backdrop-filter: blur(1px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgb(8 7 16 / 60%);
+    padding: 0.5em 1.5em;
+}
+
+.box1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* .card{
+    background-color: none;
+} */
+
+.no{
+
+    background-color: rgba(240, 248, 255, 0);
+}
+.card1{
+
+    width: 105%;
+    /* background-color: rgba(255, 255, 255, 0.13); */
+    background-image: linear-gradient(130deg, rgba(255, 255, 255, 0.244) 0%, rgba(255, 255, 255, 0.158) 100%);
+    border-radius: 1em;
+    backdrop-filter: blur(1px);
+}
+
+.card2{
+    
+    /* background-color: #f9f6f4db; */
+    background-image: linear-gradient(130deg, #fcf9f8e1 0%, #e6dbd5ab 100%);
+    border-radius: 1em;
+    backdrop-filter: blur(1px);
+    
+}
+
+.card3{
+
+    width: 105%;
+    /* background-color: rgba(255, 255, 255, 0.338); */
+    background-image: linear-gradient(130deg, rgba(255, 255, 255, 0.393) 0%, rgba(255, 255, 255, 0.269) 100%);
+    border-radius: 1em;
+    backdrop-filter: blur(1px);
+}
+
+.card4{
+
+    width: 105%;
+    /* background-color: rgb(224 203 190 / 35%); */
+    background-image: linear-gradient(130deg, rgba(224, 203, 190, 0.463) 0%, rgba(224, 203, 190, 0.258) 100%);
+    padding: 1em;
+    border-radius: 1em;
+    backdrop-filter: blur(1px);
+}
+    
+    .card5{
+    
+        width: 105%;
+        /* background-color: rgba(255, 255, 255, 0.338); */
+        background-image: linear-gradient(130deg, rgba(255, 255, 255, 0.447) 0%, rgba(244, 213, 213, 0.311) 100%);
+        border-radius: 1em;
+        backdrop-filter: blur(1px);
+        padding: .6em;
+    }
+
+.mgn{
+    
+    margin: 6em auto;
+    /* background-color: #f4e3d88f; */
+    background-image: linear-gradient(130deg, #f4d6c396 0%, #b379552e 100%);
+    border-radius: 1em;
+    backdrop-filter: blur(1px);
+}
+
+.mgn1{
+    
+    margin: 6em auto;
+    padding: 2em;
+    background-image: linear-gradient(130deg, #f4e3d8a9 0%, #c2ab9c8f 100%);
+    /* background-color: #f4e3d88f; */
+    border-radius: .4em;
+    backdrop-filter: blur(1px);
+}
+
+.mgn2{
+    
+    margin: 6em auto;
+    background-image: linear-gradient(130deg, #f7ece5cc 0%, #dbc6b7a1 100%);
+    /* background-color: #f4e3d8c4; */
+    border-radius: 1em;
+    backdrop-filter: blur(1px);
+}
